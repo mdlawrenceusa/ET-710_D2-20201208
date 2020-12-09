@@ -26,6 +26,7 @@ import {
   TypeaheadModule,
 } from 'ngx-foundation';
 
+import { OrbitComponent } from './orbit/orbit.component';
 
 
 import { AppComponent } from './app.component';
@@ -39,7 +40,8 @@ import { ShippingComponent } from './shipping/shipping.component';
 import { FngAccordionComponent } from './fng-accordion/fng-accordion.component';
 import { GraphicDesignComponent } from './graphic-design/graphic-design.component';
 import { PortfolioLightboxComponent } from './portfolio-lightbox/portfolio-lightbox.component';
-import { CarsComponent } from './cars/cars.component';
+import { CarsComponent } from '/cars/cars.component';
+
 
 @NgModule({
   imports: [
